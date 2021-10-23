@@ -14,6 +14,7 @@
 #### Backend
 
 - Added `TabletToolType::Unknown` as an option for tablet events
+- `render_texture` was removed from `Frame`, use `render_texture_at` or `render_texture_from_to` instead or use `Gles2Renderer::render_texture` as a direct replacement.
 
 ### Additions
 
